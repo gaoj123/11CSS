@@ -1,0 +1,23 @@
+body{
+    font-family: Helvetica;
+    background-color: #88eadd;
+    text-align: center;
+}
+p{
+    border-style: double;
+}
+ul{
+    list-style-type: circle;
+}
+ul li{
+    background: #e4e7d0;
+}
+h1{
+    text-decoration: underline;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color:
+}
