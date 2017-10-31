@@ -1,0 +1,20 @@
+h1{
+    color:   #242421 ;
+    text-align: center;
+}
+body{
+    background-color: #e9e16a;
+}
+ul{
+    list-style-type: square;
+}
+p {
+    border-style:groove;
+    font-family: Helvetica;
+}
+a:hover {
+    color:  #91e8c5;
+}
+a:active{
+    color:  #df6796
+}
