@@ -21,3 +21,33 @@ a:hover{
 a:active{
     color:
 }
+.extreme{
+    background-color: #E7ECF0;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    border: 5px solid lightsteelblue;
+}
+.content{
+    background-color: #C11FF0;
+    margin: auto;
+    width: 700px;
+    text-align: center;
+}
+#head1{
+    background-color: #E5B2F5;
+    width: 250px;
+    margin: auto;
+}
+#tehlulz{
+    background: #E5B2F5;
+}
+.navzone{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    background-color: white;
+}
+.prose{
+    background-color: white;
+}
