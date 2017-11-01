@@ -7,20 +7,49 @@ body{
 }
 ul{
     list-style-type: square;
+    list-style-position: inside;
+    text-align: center;
+}
+li{
+    background: lightsteelblue;
+    width: 200px;
+    margin: 0 auto;
 }
 .extreme{
-    background-color: goldenrod;
+    background-color: #E7ECF0;
+    width: 300px;
+    margin: auto;
+    border: 3px solid lightsteelblue;
 }
 .content{
-    background-color: lightsteelblue;
+    background-color: #3179BD;
+    margin: auto;
+    width: 700px;
+    text-align: center;
+}
+#head1{
+    background-color: white;
+    width: 250px;
+    margin: auto;
+}
+#tehlulz{
+    background: white;
+}
+.navzone{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    background-color: #5FACF4;
 }
 .prose{
-    background-color: green;
+    background-color: white;
 }
 p {
     border-style:groove;
     font-family: Arial;
     background-color: white;
+    margin: auto;
+    width: 600px;
 }
 a:hover {
     color:  #91e8c5;
