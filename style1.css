@@ -8,6 +8,15 @@ body{
 ul{
     list-style-type: square;
 }
+.extreme{
+    background-color: goldenrod;
+}
+.content{
+    background-color: lightsteelblue;
+}
+.prose{
+    background-color: green;
+}
 p {
     border-style:groove;
     font-family: Arial;
