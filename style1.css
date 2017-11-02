@@ -1,8 +1,18 @@
 h1{
-    color:  lightsteelblue;
     text-align: center;
-    letter-spacing: 10px;
-    text-shadow: 2px 2px 4px black;
+    letter-spacing: 12px;
+    animation: example 1s linear infinite;
+    cursor: col-resize;
+    color: white;
+}
+h2{
+    transform: rotate(7deg);
+}
+@keyframes example { 
+    0%   {background-color: #EACBD2;}
+    25%  {background-color: #DFAEB4;}
+    50%  {background-color: #DD9AC2;}
+    100% {background-color: #B486AB;}
 }
 body{
     background-color: #e9e16a;
@@ -14,7 +24,6 @@ ul{
     text-align: center;
 }
 li{
-    background: lightsteelblue;
     width: 200px;
     margin: 0 auto;
 }
@@ -23,12 +32,16 @@ li{
     width: 500px;
     margin: auto;
     border: 3px solid lightsteelblue;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 .content{
     background-color: #3179BD;
     margin: auto;
     width: 700px;
     text-align: center;
+    padding-top: 30px;
+    margin-top: 70px;
 }
 #head1{
     background-color: white;
@@ -36,16 +49,19 @@ li{
     margin: auto;
 }
 #tehlulz{
-    background: white;
+    border-color: red;
 }
 .navzone{
+    padding-bottom: 2px;
+    padding-top: 2px;
     text-align: center;
-    width: 500px;
+    width: 250px;
     margin: auto;
-    background-color: #5FACF4;
+    border: 5px solid black;
 }
 .prose{
     background-color: white;
+    padding: 50px;
 }
 p {
     border-style:groove;
@@ -62,5 +78,7 @@ a:active{
 }
 a:link{
     background-color: white;
-    padding: 2px 10px;
+    padding: 1px 5px;
+    border-style: outset;
+    border-color: blue;
 }
