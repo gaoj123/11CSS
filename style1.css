@@ -1,6 +1,7 @@
 h1{
     color:   #242421 ;
     text-align: center;
+    letter-spacing: 10px;
 }
 body{
     background-color: #e9e16a;
@@ -18,7 +19,7 @@ li{
 }
 .extreme{
     background-color: #E7ECF0;
-    width: 300px;
+    width: 500px;
     margin: auto;
     border: 3px solid lightsteelblue;
 }
@@ -30,7 +31,7 @@ li{
 }
 #head1{
     background-color: white;
-    width: 250px;
+    width: 400px;
     margin: auto;
 }
 #tehlulz{
