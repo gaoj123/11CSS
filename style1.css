@@ -1,7 +1,8 @@
 h1{
-    color:   #242421 ;
+    color:  lightsteelblue;
     text-align: center;
     letter-spacing: 10px;
+    text-shadow: 2px 2px 4px black;
 }
 body{
     background-color: #e9e16a;
